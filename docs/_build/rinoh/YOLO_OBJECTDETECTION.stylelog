@@ -1,0 +1,1679 @@
+---------------------------------- page 1 ----------------------------------
+#### FlowablesContainer('background')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('title')
+  StaticGroupedFlowables()
+    Paragraph('YOLO_OBJECTDETECTION', style='title page title')
+         > (0,0,1,0,2) title page title [Sphinx] > DEFAULT
+           (0,0,0,0,2) body [Sphinx] > default
+        SingleStyledText('YOLO_OBJECTDETECTION')
+    Paragraph('Release 1.0', style='title page subtitle')
+         > (0,0,1,0,2) title page subtitle [Sphinx] > title page title
+           (0,0,0,0,2) body [Sphinx] > default
+        SingleStyledText('Release 1.0')
+    Paragraph('Zach, Brenna, Saah, Nathan', style='title page author')
+         > (0,0,1,0,2) title page author [Sphinx] > DEFAULT
+           (0,0,0,0,2) body [Sphinx] > default
+        SingleStyledText('Zach, Brenna, Saah, Nathan')
+    Paragraph('Apr 29, 2025', style='title page date')
+         > (0,0,1,0,2) title page date [Sphinx] > DEFAULT
+           (0,0,0,0,2) body [Sphinx] > default
+        SingleStyledText('Apr 29, 2025')
+---------------------------------- page i ----------------------------------
+#### FlowablesContainer('background')
+  StaticGroupedFlowables()
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Table of Contents', style='front matter section title')
+       > (0,0,1,0,2) front matter section title [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      Field('Table of Contents')
+        StringField('Table of Contents')
+          SingleStyledText('Table of Contents')
+#### ChainedContainer('column1')
+  StaticGroupedFlowables()
+    TableOfContentsSection(style='table of contents')
+         > (0,0,1,0,1) table of contents section [Sphinx] > DEFAULT
+           (0,0,0,1,1) chapter [Sphinx] > DEFAULT
+      TableOfContents()   table of contents
+           > (0,0,0,0,2) table of contents [Sphinx] > default
+        TableOfContentsEntry('1	Dataset Preparation	1')
+             > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
+            ReferenceField('1')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('1')
+            Tab('	')
+            ReferenceField('Dataset Preparation')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Dataset Preparation')
+                MixedStyledText('Dataset Preparation')
+                  SingleStyledText('Dataset Preparation')
+            Tab('	')
+            ReferenceField('1')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('1')
+        TableOfContentsEntry('2	Model Training	3')
+             > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
+            ReferenceField('2')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('2')
+            Tab('	')
+            ReferenceField('Model Training')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Model Training')
+                MixedStyledText('Model Training')
+                  SingleStyledText('Model Training')
+            Tab('	')
+            ReferenceField('3')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('3')
+        TableOfContentsEntry('3	Video Annotation GUI	5')
+             > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
+            ReferenceField('3')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('3')
+            Tab('	')
+            ReferenceField('Video Annotation GUI')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Video Annotation GUI')
+                MixedStyledText('Video Annotation GUI')
+                  SingleStyledText('Video Annotation GUI')
+            Tab('	')
+            ReferenceField('5')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('5')
+        TableOfContentsEntry('4	Results and Discussion	7')
+             > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
+            ReferenceField('4')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('4')
+            Tab('	')
+            ReferenceField('Results and Discussion')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Results and Discussion')
+                MixedStyledText('Results and Discussion')
+                  SingleStyledText('Results and Discussion')
+            Tab('	')
+            ReferenceField('7')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('7')
+        TableOfContentsEntry('5	Conclusion	9')
+             > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
+            ReferenceField('5')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('5')
+            Tab('	')
+            ReferenceField('Conclusion')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Conclusion')
+                MixedStyledText('Conclusion')
+                  SingleStyledText('Conclusion')
+            Tab('	')
+            ReferenceField('9')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('9')
+        TableOfContentsEntry('6	Introduction	11')
+             > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
+            ReferenceField('6')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('6')
+            Tab('	')
+            ReferenceField('Introduction')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('Introduction')
+                MixedStyledText('Introduction')
+                  SingleStyledText('Introduction')
+            Tab('	')
+            ReferenceField('11')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('11')
+        TableOfContentsEntry('7	System Overview	13')
+             > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
+            ReferenceField('7')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('7')
+            Tab('	')
+            ReferenceField('System Overview')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              MixedStyledText('System Overview')
+                MixedStyledText('System Overview')
+                  SingleStyledText('System Overview')
+            Tab('	')
+            ReferenceField('13')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('13')
+        TableOfContentsEntry('	Python Module Index	15')
+             > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
+            ReferenceField('')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('')
+            Tab('	')
+            ReferenceField('Python Module Index')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('Python Module Index')
+            Tab('	')
+            ReferenceField('15')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('15')
+        TableOfContentsEntry('	Index	17')
+             > (0,0,0,1,2) toc level 1 [Sphinx] > table of contents
+            ReferenceField('')
+                 > (0,0,0,1,4) toc entry number reference field [Sphinx] > linked reference
+                   (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('')
+            Tab('	')
+            ReferenceField('Index')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              StringField('Index')
+                SingleStyledText('Index')
+            Tab('	')
+            ReferenceField('17')
+                 > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+              SingleStyledText('17')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		i')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('		i')
+          MixedStyledText('		i')
+            Tab('	')
+            Tab('	')
+            Field('i')
+              SingleStyledText('i')
+---------------------------------- page 1 ----------------------------------
+#### FlowablesContainer('background')
+  StaticGroupedFlowables()
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Chapter 1', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      MixedStyledText('Chapter 1')
+        MixedStyledText('Chapter 1')
+          MixedStyledText('Chapter ')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+          Field('1', style='number')
+               > (0,0,2,0,3) body matter chapter number [Sphinx] > DEFAULT
+            SingleStyledText('1')
+  Paragraph('Dataset Preparation', style='body matter chapter title')
+       > (0,0,1,0,2) body matter chapter title [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      Field('Dataset Preparation')
+        MixedStyledText('Dataset Preparation')
+          MixedStyledText('Dataset Preparation')
+            SingleStyledText('Dataset Preparation')
+#### ChainedContainer('column1')
+  StaticGroupedFlowables()
+    DocumentTree()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <document>
+      StaticGroupedFlowables()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <compound>
+        StaticGroupedFlowables(id='%build_dataset')   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <start_of_file>
+          Section(id='%build_dataset#dataset-preparation')   C:2 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\build_dataset.rst)   <section>
+               > (0,0,0,1,4) content chapter [Sphinx] > chapter
+                 (0,0,0,1,2) chapter [Sphinx] > DEFAULT
+            Paragraph('Dataset preparation script for Y...')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\build_dataset.py:docstring of build_dataset:1   <paragraph>
+                 > (0,0,0,0,2) body [Sphinx] > default
+                MixedStyledText('Dataset preparation script for Y...')
+                  MixedStyledText('Dataset preparation script for Y...')
+                    SingleStyledText('Dataset preparation script for Y...')
+            Paragraph('This script downloads, filters, ...')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\build_dataset.py:docstring of build_dataset:3   <paragraph>
+                 > (0,0,0,0,2) body [Sphinx] > default
+                MixedStyledText('This script downloads, filters, ...')
+                  MixedStyledText('This script downloads, filters, ...')
+                    SingleStyledText('This script downloads, filters, ...')
+                MixedStyledText('This script downloads, filters, ...')
+                  MixedStyledText('This script downloads, filters, ...')
+                    SingleStyledText('This script downloads, filters, ...')
+            LabeledFlowable(style='object description')   <desc>
+                 > (0,0,1,0,2) object description [Sphinx] > definition list item
+              StaticGroupedFlowables(style='signatures')
+                   > (0,0,2,0,3) object signatures [Sphinx] > definition term
+                Paragraph('build_dataset.augment_images ( i...', id='%build_dataset#build_dataset.augment_images')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\build_dataset.py:docstring of build_dataset.augment_images:1   <desc_signature>
+                     > (0,0,2,0,5) object signature [Sphinx] > definition term paragraph
+                       (0,0,0,0,2) body [Sphinx] > default
+                    MixedStyledText('build_dataset.augment_images ( i...')
+                      MixedStyledText('build_dataset.augment_images ( i...')
+                        MixedStyledText('build_dataset.', style='additional name part')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\build_dataset.py:docstring of build_dataset.augment_images:1   <desc_addname>
+                             > (0,0,3,0,6) additional name part [Sphinx] > monospaced
+                          SingleStyledText('build_dataset.')
+                        MixedStyledText('augment_images', style='main object name')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\build_dataset.py:docstring of build_dataset.augment_images:1   <desc_name>
+                             > (0,0,3,0,6) object name [Sphinx] > DEFAULT
+                          SingleStyledText('augment_images')
+                        MixedStyledText(' ( input_dir, n_target ) ')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\build_dataset.py:docstring of build_dataset.augment_images:1   <desc_parameterlist>
+                          MixedStyledText(' ( input_dir, n_target')
+                            SingleStyledText(' ( ', style='parentheses')
+                                 > (0,0,3,0,6) object parentheses [Sphinx] > DEFAULT
+                            MixedStyledText('input_dir, n_target', style='parameter list')
+                                 > (0,0,3,0,6) object parameter list [Sphinx] > DEFAULT
+                              MixedStyledText('input_dir', style='parameter')   <desc_parameter>
+                                   > (0,0,3,0,6) object parameter [Sphinx] > object parameter (no emphasis)
+                                MixedStyledText('input_dir')   <desc_sig_name>
+                                  SingleStyledText('input_dir')
+                              SingleStyledText(', ')
+                              MixedStyledText('n_target', style='parameter')   <desc_parameter>
+                                   > (0,0,3,0,6) object parameter [Sphinx] > object parameter (no emphasis)
+                                MixedStyledText('n_target')   <desc_sig_name>
+                                  SingleStyledText('n_target')
+                          SingleStyledText(' ) ', style='parentheses')
+                               > (0,0,3,0,6) object parentheses [Sphinx] > DEFAULT
+              StaticGroupedFlowables(style='content')   <desc_content>
+                   > (0,0,2,0,3) object description content [Sphinx] > definition
+                Paragraph('Augments images from a given dir...')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\build_dataset.py:docstring of build_dataset.augment_images:1   <paragraph>
+                     > (0,0,2,0,5) object description content paragraph [Sphinx] > body
+                       (0,0,0,0,2) body [Sphinx] > default
+                    MixedStyledText('Augments images from a given dir...')
+                      MixedStyledText('Augments images from a given dir...')
+                        SingleStyledText('Augments images from a given dir...')
+                DefinitionList(style='field list')   <field_list>
+                     > (0,0,1,0,2) field list [Sphinx] > DEFAULT
+                       (0,0,0,0,2) definition list [Sphinx] > DEFAULT
+                  LabeledFlowable()   <field>
+                       > (0,0,1,0,4) field list item [Sphinx] > DEFAULT
+                         (0,0,0,0,4) definition list item [Sphinx] > DEFAULT
+                    Paragraph('Parameters', style='field name')
+                         > (0,0,2,0,6) field name [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('Parameters')
+                          MixedStyledText('Parameters')   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\build_dataset.rst)   <field_name>
+                            SingleStyledText('Parameters')
+                    StaticGroupedFlowables()   <field_body>
+                      List(style='bulleted')   <bullet_list>
+                           > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                        ListItem()   <list_item>
+                             x (0,0,1,0,4) bulleted list item
+                          ListItemLabel('•')
+                               > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                 (0,0,0,0,2) list item label [Sphinx] > default
+                              MixedStyledText('•')
+                                SingleStyledText('')
+                                SingleStyledText('•')
+                                SingleStyledText('')
+                          StaticGroupedFlowables()
+                               > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                            Paragraph('input_dir (str) – Directory cont...')   <paragraph>
+                                 > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                   (0,0,0,0,2) body [Sphinx] > default
+                                MixedStyledText('input_dir (str) – Directory cont...')
+                                  MixedStyledText('input_dir (str) – Directory cont...')
+                                    MixedStyledText('input_dir', style='literal strong')   <literal_strong>
+                                         > (0,0,1,0,1) literal strong [Sphinx] > strong
+                                      SingleStyledText('input_dir')
+                                    SingleStyledText(' (')
+                                    MixedStyledText('str', style='literal emphasis')   <literal_emphasis>
+                                         > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                                      SingleStyledText('str')
+                                    SingleStyledText(')')
+                                    SingleStyledText(' – ')
+                                    SingleStyledText('Directory containing original im...')
+                        ListItem()   <list_item>
+                             x (0,0,1,0,4) bulleted list item
+                          ListItemLabel('•')
+                               > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                 (0,0,0,0,2) list item label [Sphinx] > default
+                              MixedStyledText('•')
+                                SingleStyledText('')
+                                SingleStyledText('•')
+                                SingleStyledText('')
+                          StaticGroupedFlowables()
+                               > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                            Paragraph('n_target (int) – Desired total n...')   <paragraph>
+                                 > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                   (0,0,0,0,2) body [Sphinx] > default
+                                MixedStyledText('n_target (int) – Desired total n...')
+                                  MixedStyledText('n_target (int) – Desired total n...')
+                                    MixedStyledText('n_target', style='literal strong')   <literal_strong>
+                                         > (0,0,1,0,1) literal strong [Sphinx] > strong
+                                      SingleStyledText('n_target')
+                                    SingleStyledText(' (')
+                                    MixedStyledText('int', style='literal emphasis')   <literal_emphasis>
+                                         > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                                      SingleStyledText('int')
+                                    SingleStyledText(')')
+                                    SingleStyledText(' – ')
+                                    SingleStyledText('Desired total number of images a...')
+                  LabeledFlowable()   <field>
+                       > (0,0,1,0,4) field list item [Sphinx] > DEFAULT
+                         (0,0,0,0,4) definition list item [Sphinx] > DEFAULT
+                    Paragraph('Returns', style='field name')
+                         > (0,0,2,0,6) field name [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('Returns')
+                          MixedStyledText('Returns')   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\build_dataset.rst)   <field_name>
+                            SingleStyledText('Returns')
+                    StaticGroupedFlowables()   <field_body>
+                      Paragraph('None')   <paragraph>
+                           > (0,0,0,0,2) body [Sphinx] > default
+                          MixedStyledText('None')
+                            MixedStyledText('None')
+                              SingleStyledText('None')
+            LabeledFlowable(style='object description')   <desc>
+                 > (0,0,1,0,2) object description [Sphinx] > definition list item
+              StaticGroupedFlowables(style='signatures')
+                   > (0,0,2,0,3) object signatures [Sphinx] > definition term
+                Paragraph('build_dataset.get_filtered_datas...', id='%build_dataset#build_dataset.get_filtered_dataset')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\build_dataset.py:docstring of build_dataset.get_filtered_dataset:1   <desc_signature>
+                     > (0,0,2,0,5) object signature [Sphinx] > definition term paragraph
+                       (0,0,0,0,2) body [Sphinx] > default
+                    MixedStyledText('build_dataset.get_filtered_datas...')
+                      MixedStyledText('build_dataset.get_filtered_datas...')
+                        MixedStyledText('build_dataset.', style='additional name part')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\build_dataset.py:docstring of build_dataset.get_filtered_dataset:1   <desc_addname>
+                             > (0,0,3,0,6) additional name part [Sphinx] > monospaced
+                          SingleStyledText('build_dataset.')
+                        MixedStyledText('get_filtered_dataset', style='main object name')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\build_dataset.py:docstring of build_dataset.get_filtered_dataset:1   <desc_name>
+                             > (0,0,3,0,6) object name [Sphinx] > DEFAULT
+                          SingleStyledText('get_filtered_dataset')
+                        MixedStyledText(' ( class_name, target_count, max...')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\build_dataset.py:docstring of build_dataset.get_filtered_dataset:1   <desc_parameterlist>
+                          MixedStyledText(' ( class_name, target_count, max...')
+                            SingleStyledText(' ( ', style='parentheses')
+                                 > (0,0,3,0,6) object parentheses [Sphinx] > DEFAULT
+                            MixedStyledText('class_name, target_count, max_pe...', style='parameter list')
+                                 > (0,0,3,0,6) object parameter list [Sphinx] > DEFAULT
+                              MixedStyledText('class_name', style='parameter')   <desc_parameter>
+                                   > (0,0,3,0,6) object parameter [Sphinx] > object parameter (no emphasis)
+                                MixedStyledText('class_name')   <desc_sig_name>
+                                  SingleStyledText('class_name')
+                              SingleStyledText(', ')
+                              MixedStyledText('target_count', style='parameter')   <desc_parameter>
+                                   > (0,0,3,0,6) object parameter [Sphinx] > object parameter (no emphasis)
+                                MixedStyledText('target_count')   <desc_sig_name>
+                                  SingleStyledText('target_count')
+                              SingleStyledText(', ')
+                              MixedStyledText('max_people=1', style='parameter')   <desc_parameter>
+                                   > (0,0,3,0,6) object parameter [Sphinx] > object parameter (no emphasis)
+                                MixedStyledText('max_people')   <desc_sig_name>
+                                  SingleStyledText('max_people')
+                                MixedStyledText('=')   <desc_sig_operator>
+                                  SingleStyledText('=')
+                                MixedStyledText('1')   <inline>
+                                  SingleStyledText('1')
+                          SingleStyledText(' ) ', style='parentheses')
+                               > (0,0,3,0,6) object parentheses [Sphinx] > DEFAULT
+              StaticGroupedFlowables(style='content')   <desc_content>
+                   > (0,0,2,0,3) object description content [Sphinx] > definition
+                Paragraph('Filters a FiftyOne Zoo dataset t...')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\build_dataset.py:docstring of build_dataset.get_filtered_dataset:1   <paragraph>
+                     > (0,0,2,0,5) object description content paragraph [Sphinx] > body
+                       (0,0,0,0,2) body [Sphinx] > default
+                    MixedStyledText('Filters a FiftyOne Zoo dataset t...')
+                      MixedStyledText('Filters a FiftyOne Zoo dataset t...')
+                        SingleStyledText('Filters a FiftyOne Zoo dataset t...')
+                DefinitionList(style='field list')   <field_list>
+                     > (0,0,1,0,2) field list [Sphinx] > DEFAULT
+                       (0,0,0,0,2) definition list [Sphinx] > DEFAULT
+                  LabeledFlowable()   <field>
+                       > (0,0,1,0,4) field list item [Sphinx] > DEFAULT
+                         (0,0,0,0,4) definition list item [Sphinx] > DEFAULT
+                    Paragraph('Parameters', style='field name')
+                         > (0,0,2,0,6) field name [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('Parameters')
+                          MixedStyledText('Parameters')   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\build_dataset.rst)   <field_name>
+                            SingleStyledText('Parameters')
+                    StaticGroupedFlowables()   <field_body>
+                      List(style='bulleted')   <bullet_list>
+                           > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+                        ListItem()   <list_item>
+                             x (0,0,1,0,4) bulleted list item
+                          ListItemLabel('•')
+                               > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                 (0,0,0,0,2) list item label [Sphinx] > default
+                              MixedStyledText('•')
+                                SingleStyledText('')
+                                SingleStyledText('•')
+                                SingleStyledText('')
+                          StaticGroupedFlowables()
+                               > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                            Paragraph('class_name (str) – The class nam...')   <paragraph>
+                                 > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                   (0,0,0,0,2) body [Sphinx] > default
+                                MixedStyledText('class_name (str) – The class nam...')
+                                  MixedStyledText('class_name (str) – The class nam...')
+                                    MixedStyledText('class_name', style='literal strong')   <literal_strong>
+                                         > (0,0,1,0,1) literal strong [Sphinx] > strong
+                                      SingleStyledText('class_name')
+                                    SingleStyledText(' (')
+                                    MixedStyledText('str', style='literal emphasis')   <literal_emphasis>
+                                         > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                                      SingleStyledText('str')
+                                    SingleStyledText(')')
+                                    SingleStyledText(' – ')
+                                    SingleStyledText('The class name to filter (e.g., ...')
+                        ListItem()   <list_item>
+                             x (0,0,1,0,4) bulleted list item
+                          ListItemLabel('•')
+                               > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                 (0,0,0,0,2) list item label [Sphinx] > default
+                              MixedStyledText('•')
+                                SingleStyledText('')
+                                SingleStyledText('•')
+                                SingleStyledText('')
+                          StaticGroupedFlowables()
+                               > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                            Paragraph('target_count (int) – The number ...')   <paragraph>
+                                 > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                   (0,0,0,0,2) body [Sphinx] > default
+                                MixedStyledText('target_count (int) – The number ...')
+                                  MixedStyledText('target_count (int) – The number ...')
+                                    MixedStyledText('target_count', style='literal strong')   <literal_strong>
+                                         > (0,0,1,0,1) literal strong [Sphinx] > strong
+                                      SingleStyledText('target_count')
+                                    SingleStyledText(' (')
+                                    MixedStyledText('int', style='literal emphasis')   <literal_emphasis>
+                                         > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                                      SingleStyledText('int')
+                                    SingleStyledText(')')
+                                    SingleStyledText(' – ')
+                                    SingleStyledText('The number of filtered samples d...')
+                        ListItem()   <list_item>
+                             x (0,0,1,0,4) bulleted list item
+                          ListItemLabel('•')
+                               > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                                 (0,0,0,0,2) list item label [Sphinx] > default
+                              MixedStyledText('•')
+                                SingleStyledText('')
+                                SingleStyledText('•')
+                                SingleStyledText('')
+                          StaticGroupedFlowables()
+                               > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                            Paragraph('max_people (int, optional) – Max...')   <paragraph>
+                                 > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                                   (0,0,0,0,2) body [Sphinx] > default
+                                MixedStyledText('max_people (int, optional) – Max...')
+                                  MixedStyledText('max_people (int, optional) – Max...')
+                                    MixedStyledText('max_people', style='literal strong')   <literal_strong>
+                                         > (0,0,1,0,1) literal strong [Sphinx] > strong
+                                      SingleStyledText('max_people')
+                                    SingleStyledText(' (')
+                                    MixedStyledText('int', style='literal emphasis')   <literal_emphasis>
+                                         > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                                      SingleStyledText('int')
+                                    MixedStyledText(', ', style='literal emphasis')   <literal_emphasis>
+                                         > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                                      SingleStyledText(', ')
+                                    MixedStyledText('optional', style='literal emphasis')   <literal_emphasis>
+                                         > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                                      SingleStyledText('optional')
+                                    SingleStyledText(')')
+                                    SingleStyledText(' – ')
+                                    SingleStyledText('Maximum allowed people per image...')
+                                MixedStyledText('max_people (int, optional) – Max...')
+                                  MixedStyledText('max_people (int, optional) – Max...')
+                                    MixedStyledText('max_people', style='literal strong')   <literal_strong>
+                                         > (0,0,1,0,1) literal strong [Sphinx] > strong
+                                      SingleStyledText('max_people')
+                                    SingleStyledText(' (')
+                                    MixedStyledText('int', style='literal emphasis')   <literal_emphasis>
+                                         > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                                      SingleStyledText('int')
+                                    MixedStyledText(', ', style='literal emphasis')   <literal_emphasis>
+                                         > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                                      SingleStyledText(', ')
+                                    MixedStyledText('optional', style='literal emphasis')   <literal_emphasis>
+                                         > (0,0,1,0,1) literal emphasis [Sphinx] > emphasis
+                                      SingleStyledText('optional')
+                                    SingleStyledText(')')
+                                    SingleStyledText(' – ')
+                                    SingleStyledText('Maximum allowed people per image...')
+                  LabeledFlowable()   <field>
+                       > (0,0,1,0,4) field list item [Sphinx] > DEFAULT
+                         (0,0,0,0,4) definition list item [Sphinx] > DEFAULT
+                    Paragraph('Returns', style='field name')
+                         > (0,0,2,0,6) field name [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('Returns')
+                          MixedStyledText('Returns')   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\build_dataset.rst)   <field_name>
+                            SingleStyledText('Returns')
+                    StaticGroupedFlowables()   <field_body>
+                      Paragraph('A FiftyOne dataset containing ex...')   <paragraph>
+                           > (0,0,0,0,2) body [Sphinx] > default
+                          MixedStyledText('A FiftyOne dataset containing ex...')
+                            MixedStyledText('A FiftyOne dataset containing ex...')
+                              SingleStyledText('A FiftyOne dataset containing ex...')
+                              MixedStyledText('target_count', style='title reference')   <title_reference>
+                                   > (0,0,1,0,1) title reference [Sphinx] > DEFAULT
+                                SingleStyledText('target_count')
+                              SingleStyledText(' samples, each of which has at l...')
+                          MixedStyledText('A FiftyOne dataset containing ex...')
+                            MixedStyledText('A FiftyOne dataset containing ex...')
+                              SingleStyledText('A FiftyOne dataset containing ex...')
+                              MixedStyledText('target_count', style='title reference')   <title_reference>
+                                   > (0,0,1,0,1) title reference [Sphinx] > DEFAULT
+                                SingleStyledText('target_count')
+                              SingleStyledText(' samples, each of which has at l...')
+                              MixedStyledText('class_name', style='title reference')   <title_reference>
+                                   > (0,0,1,0,1) title reference [Sphinx] > DEFAULT
+                                SingleStyledText('class_name')
+                              SingleStyledText('.')
+                  LabeledFlowable()   <field>
+                       > (0,0,1,0,4) field list item [Sphinx] > DEFAULT
+                         (0,0,0,0,4) definition list item [Sphinx] > DEFAULT
+                    Paragraph('Return type', style='field name')
+                         > (0,0,2,0,6) field name [Sphinx] > default
+                           (0,0,0,0,2) body [Sphinx] > default
+                        MixedStyledText('Return type')
+                          MixedStyledText('Return type')   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\build_dataset.rst)   <field_name>
+                            SingleStyledText('Return type')
+                    StaticGroupedFlowables()   <field_body>
+                      Paragraph('fiftyone.core.dataset.Dataset')   <paragraph>
+                           > (0,0,0,0,2) body [Sphinx] > default
+                          MixedStyledText('fiftyone.core.dataset.Dataset')
+                            MixedStyledText('fiftyone.core.dataset.Dataset')
+                              SingleStyledText('fiftyone.core.dataset.Dataset')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		1')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('		1')
+          MixedStyledText('		1')
+            Tab('	')
+            Tab('	')
+            Field('1')
+              SingleStyledText('1')
+---------------------------------- page 2 ----------------------------------
+#### FlowablesContainer('background')
+  StaticGroupedFlowables()
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <document>
+      (continued) StaticGroupedFlowables()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <compound>
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('YOLO_OBJECTDETECTION, Release 1....')
+         > (0,0,0,0,2) header [Sphinx] > header_footer
+        MixedStyledText('YOLO_OBJECTDETECTION, Release 1....')
+          MixedStyledText('YOLO_OBJECTDETECTION, Release 1....')
+            Field('YOLO_OBJECTDETECTION')
+              SingleStyledText('YOLO_OBJECTDETECTION')
+            SingleStyledText(', ')
+            Field('Release 1.0')
+              SingleStyledText('Release 1.0')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('2		Chapter 1.  Dataset Preparati...')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('2		Chapter 1.  Dataset Preparati...')
+          MixedStyledText('2		Chapter 1.  Dataset Preparati...')
+            Field('2')
+              SingleStyledText('2')
+            Tab('	')
+            Tab('	')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+            Field('1')
+              SingleStyledText('1')
+            SingleStyledText('.  ')
+            Field('Dataset Preparation')
+              MixedStyledText('Dataset Preparation')
+                MixedStyledText('Dataset Preparation')
+                  SingleStyledText('Dataset Preparation')
+---------------------------------- page 3 ----------------------------------
+#### FlowablesContainer('background')
+  StaticGroupedFlowables()
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Chapter 2', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      MixedStyledText('Chapter 2')
+        MixedStyledText('Chapter 2')
+          MixedStyledText('Chapter ')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+          Field('2', style='number')
+               > (0,0,2,0,3) body matter chapter number [Sphinx] > DEFAULT
+            SingleStyledText('2')
+  Paragraph('Model Training', style='body matter chapter title')
+       > (0,0,1,0,2) body matter chapter title [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      Field('Model Training')
+        MixedStyledText('Model Training')
+          MixedStyledText('Model Training')
+            SingleStyledText('Model Training')
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <document>
+      (continued) StaticGroupedFlowables()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <compound>
+        StaticGroupedFlowables(id='%yolov8_train')   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <start_of_file>
+          Section(id='%yolov8_train#model-training')   C:2 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\yolov8_train.rst)   <section>
+               > (0,0,0,1,4) content chapter [Sphinx] > chapter
+                 (0,0,0,1,2) chapter [Sphinx] > DEFAULT
+            Paragraph('Model Training Script for YOLO O...')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\yolov8_train.py:docstring of yolov8_train:1   <paragraph>
+                 > (0,0,0,0,2) body [Sphinx] > default
+                MixedStyledText('Model Training Script for YOLO O...')
+                  MixedStyledText('Model Training Script for YOLO O...')
+                    SingleStyledText('Model Training Script for YOLO O...')
+            Paragraph('This script trains a YOLOv8 mode...')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\yolov8_train.py:docstring of yolov8_train:3   <paragraph>
+                 > (0,0,0,0,2) body [Sphinx] > default
+                MixedStyledText('This script trains a YOLOv8 mode...')
+                  MixedStyledText('This script trains a YOLOv8 mode...')
+                    SingleStyledText('This script trains a YOLOv8 mode...')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		3')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('		3')
+          MixedStyledText('		3')
+            Tab('	')
+            Tab('	')
+            Field('3')
+              SingleStyledText('3')
+---------------------------------- page 4 ----------------------------------
+#### FlowablesContainer('background')
+  StaticGroupedFlowables()
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <document>
+      (continued) StaticGroupedFlowables()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <compound>
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('YOLO_OBJECTDETECTION, Release 1....')
+         > (0,0,0,0,2) header [Sphinx] > header_footer
+        MixedStyledText('YOLO_OBJECTDETECTION, Release 1....')
+          MixedStyledText('YOLO_OBJECTDETECTION, Release 1....')
+            Field('YOLO_OBJECTDETECTION')
+              SingleStyledText('YOLO_OBJECTDETECTION')
+            SingleStyledText(', ')
+            Field('Release 1.0')
+              SingleStyledText('Release 1.0')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('4		Chapter 2.  Model Training')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('4		Chapter 2.  Model Training')
+          MixedStyledText('4		Chapter 2.  Model Training')
+            Field('4')
+              SingleStyledText('4')
+            Tab('	')
+            Tab('	')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+            Field('2')
+              SingleStyledText('2')
+            SingleStyledText('.  ')
+            Field('Model Training')
+              MixedStyledText('Model Training')
+                MixedStyledText('Model Training')
+                  SingleStyledText('Model Training')
+---------------------------------- page 5 ----------------------------------
+#### FlowablesContainer('background')
+  StaticGroupedFlowables()
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Chapter 3', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      MixedStyledText('Chapter 3')
+        MixedStyledText('Chapter 3')
+          MixedStyledText('Chapter ')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+          Field('3', style='number')
+               > (0,0,2,0,3) body matter chapter number [Sphinx] > DEFAULT
+            SingleStyledText('3')
+  Paragraph('Video Annotation GUI', style='body matter chapter title')
+       > (0,0,1,0,2) body matter chapter title [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      Field('Video Annotation GUI')
+        MixedStyledText('Video Annotation GUI')
+          MixedStyledText('Video Annotation GUI')
+            SingleStyledText('Video Annotation GUI')
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <document>
+      (continued) StaticGroupedFlowables()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <compound>
+        StaticGroupedFlowables(id='%GUI')   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <start_of_file>
+          Section(id='%GUI#video-annotation-gui')   C:2 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\GUI.rst)   <section>
+               > (0,0,0,1,4) content chapter [Sphinx] > chapter
+                 (0,0,0,1,2) chapter [Sphinx] > DEFAULT
+            LabeledFlowable(style='object description')   <desc>
+                 > (0,0,1,0,2) object description [Sphinx] > definition list item
+              StaticGroupedFlowables(style='signatures')
+                   > (0,0,2,0,3) object signatures [Sphinx] > definition term
+                Paragraph('GUI.open_file (  ) ', id='%GUI#GUI.open_file')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\GUI.py:docstring of GUI.open_file:1   <desc_signature>
+                     > (0,0,2,0,5) object signature [Sphinx] > definition term paragraph
+                       (0,0,0,0,2) body [Sphinx] > default
+                    MixedStyledText('GUI.open_file (  ) ')
+                      MixedStyledText('GUI.open_file (  ) ')
+                        MixedStyledText('GUI.', style='additional name part')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\GUI.py:docstring of GUI.open_file:1   <desc_addname>
+                             > (0,0,3,0,6) additional name part [Sphinx] > monospaced
+                          SingleStyledText('GUI.')
+                        MixedStyledText('open_file', style='main object name')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\GUI.py:docstring of GUI.open_file:1   <desc_name>
+                             > (0,0,3,0,6) object name [Sphinx] > DEFAULT
+                          SingleStyledText('open_file')
+                        MixedStyledText(' (  ) ')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\GUI.py:docstring of GUI.open_file:1   <desc_parameterlist>
+                          MixedStyledText(' ( ')
+                            SingleStyledText(' ( ', style='parentheses')
+                                 > (0,0,3,0,6) object parentheses [Sphinx] > DEFAULT
+                            MixedStyledText('', style='parameter list')
+                                 > (0,0,3,0,6) object parameter list [Sphinx] > DEFAULT
+                          SingleStyledText(' ) ', style='parentheses')
+                               > (0,0,3,0,6) object parentheses [Sphinx] > DEFAULT
+              StaticGroupedFlowables(style='content')   <desc_content>
+                   > (0,0,2,0,3) object description content [Sphinx] > definition
+            LabeledFlowable(style='object description')   <desc>
+                 > (0,0,1,0,2) object description [Sphinx] > definition list item
+              StaticGroupedFlowables(style='signatures')
+                   > (0,0,2,0,3) object signatures [Sphinx] > definition term
+                Paragraph('GUI.process_video ( video_path )...', id='%GUI#GUI.process_video')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\GUI.py:docstring of GUI.process_video:1   <desc_signature>
+                     > (0,0,2,0,5) object signature [Sphinx] > definition term paragraph
+                       (0,0,0,0,2) body [Sphinx] > default
+                    MixedStyledText('GUI.process_video ( video_path )...')
+                      MixedStyledText('GUI.process_video ( video_path )...')
+                        MixedStyledText('GUI.', style='additional name part')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\GUI.py:docstring of GUI.process_video:1   <desc_addname>
+                             > (0,0,3,0,6) additional name part [Sphinx] > monospaced
+                          SingleStyledText('GUI.')
+                        MixedStyledText('process_video', style='main object name')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\GUI.py:docstring of GUI.process_video:1   <desc_name>
+                             > (0,0,3,0,6) object name [Sphinx] > DEFAULT
+                          SingleStyledText('process_video')
+                        MixedStyledText(' ( video_path ) ')   C:\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\GUI.py:docstring of GUI.process_video:1   <desc_parameterlist>
+                          MixedStyledText(' ( video_path')
+                            SingleStyledText(' ( ', style='parentheses')
+                                 > (0,0,3,0,6) object parentheses [Sphinx] > DEFAULT
+                            MixedStyledText('video_path', style='parameter list')
+                                 > (0,0,3,0,6) object parameter list [Sphinx] > DEFAULT
+                              MixedStyledText('video_path', style='parameter')   <desc_parameter>
+                                   > (0,0,3,0,6) object parameter [Sphinx] > object parameter (no emphasis)
+                                MixedStyledText('video_path')   <desc_sig_name>
+                                  SingleStyledText('video_path')
+                          SingleStyledText(' ) ', style='parentheses')
+                               > (0,0,3,0,6) object parentheses [Sphinx] > DEFAULT
+              StaticGroupedFlowables(style='content')   <desc_content>
+                   > (0,0,2,0,3) object description content [Sphinx] > definition
+        StaticGroupedFlowables(id='%usage_instructions')   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <start_of_file>
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		5')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('		5')
+          MixedStyledText('		5')
+            Tab('	')
+            Tab('	')
+            Field('5')
+              SingleStyledText('5')
+---------------------------------- page 6 ----------------------------------
+#### FlowablesContainer('background')
+  StaticGroupedFlowables()
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <document>
+      (continued) StaticGroupedFlowables()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <compound>
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('YOLO_OBJECTDETECTION, Release 1....')
+         > (0,0,0,0,2) header [Sphinx] > header_footer
+        MixedStyledText('YOLO_OBJECTDETECTION, Release 1....')
+          MixedStyledText('YOLO_OBJECTDETECTION, Release 1....')
+            Field('YOLO_OBJECTDETECTION')
+              SingleStyledText('YOLO_OBJECTDETECTION')
+            SingleStyledText(', ')
+            Field('Release 1.0')
+              SingleStyledText('Release 1.0')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('6		Chapter 3.  Video Annotation ...')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('6		Chapter 3.  Video Annotation ...')
+          MixedStyledText('6		Chapter 3.  Video Annotation ...')
+            Field('6')
+              SingleStyledText('6')
+            Tab('	')
+            Tab('	')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+            Field('3')
+              SingleStyledText('3')
+            SingleStyledText('.  ')
+            Field('Video Annotation GUI')
+              MixedStyledText('Video Annotation GUI')
+                MixedStyledText('Video Annotation GUI')
+                  SingleStyledText('Video Annotation GUI')
+---------------------------------- page 7 ----------------------------------
+#### FlowablesContainer('background')
+  StaticGroupedFlowables()
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Chapter 4', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      MixedStyledText('Chapter 4')
+        MixedStyledText('Chapter 4')
+          MixedStyledText('Chapter ')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+          Field('4', style='number')
+               > (0,0,2,0,3) body matter chapter number [Sphinx] > DEFAULT
+            SingleStyledText('4')
+  Paragraph('Results and Discussion', style='body matter chapter title')
+       > (0,0,1,0,2) body matter chapter title [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      Field('Results and Discussion')
+        MixedStyledText('Results and Discussion')
+          MixedStyledText('Results and Discussion')
+            SingleStyledText('Results and Discussion')
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <document>
+      (continued) StaticGroupedFlowables()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <compound>
+        StaticGroupedFlowables(id='%results_discussion')   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <start_of_file>
+          Section(id='%results_discussion#results-and-discussion')   C:2 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\results_discussion.rst)   <section>
+               > (0,0,0,1,4) content chapter [Sphinx] > chapter
+                 (0,0,0,1,2) chapter [Sphinx] > DEFAULT
+            Paragraph('Here you can summarize:')   C:4 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\results_discussion.rst)   <paragraph>
+                 > (0,0,0,0,2) body [Sphinx] > default
+                MixedStyledText('Here you can summarize:')
+                  MixedStyledText('Here you can summarize:')
+                    SingleStyledText('Here you can summarize:')
+            List(style='bulleted')   C:6 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\results_discussion.rst)   <bullet_list>
+                 > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+              ListItem()   C:6 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\results_discussion.rst)   <list_item>
+                   x (0,0,1,0,4) bulleted list item
+                ListItemLabel('•')
+                     > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                       (0,0,0,0,2) list item label [Sphinx] > default
+                    MixedStyledText('•')
+                      SingleStyledText('')
+                      SingleStyledText('•')
+                      SingleStyledText('')
+                StaticGroupedFlowables()
+                     > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                  Paragraph('Training/validation curves')   C:6 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\results_discussion.rst)   <paragraph>
+                       > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                         (0,0,0,0,2) body [Sphinx] > default
+                      MixedStyledText('Training/validation curves')
+                        MixedStyledText('Training/validation curves')
+                          SingleStyledText('Training/validation curves')
+              ListItem()   C:7 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\results_discussion.rst)   <list_item>
+                   x (0,0,1,0,4) bulleted list item
+                ListItemLabel('•')
+                     > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                       (0,0,0,0,2) list item label [Sphinx] > default
+                    MixedStyledText('•')
+                      SingleStyledText('')
+                      SingleStyledText('•')
+                      SingleStyledText('')
+                StaticGroupedFlowables()
+                     > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                  Paragraph('mAP / class-by-class accuracy')   C:7 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\results_discussion.rst)   <paragraph>
+                       > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                         (0,0,0,0,2) body [Sphinx] > default
+                      MixedStyledText('mAP / class-by-class accuracy')
+                        MixedStyledText('mAP / class-by-class accuracy')
+                          SingleStyledText('mAP / class-by-class accuracy')
+              ListItem()   C:8 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\results_discussion.rst)   <list_item>
+                   x (0,0,1,0,4) bulleted list item
+                ListItemLabel('•')
+                     > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                       (0,0,0,0,2) list item label [Sphinx] > default
+                    MixedStyledText('•')
+                      SingleStyledText('')
+                      SingleStyledText('•')
+                      SingleStyledText('')
+                StaticGroupedFlowables()
+                     > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                  Paragraph('Sample annotated frames')   C:8 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\results_discussion.rst)   <paragraph>
+                       > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                         (0,0,0,0,2) body [Sphinx] > default
+                      MixedStyledText('Sample annotated frames')
+                        MixedStyledText('Sample annotated frames')
+                          SingleStyledText('Sample annotated frames')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		7')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('		7')
+          MixedStyledText('		7')
+            Tab('	')
+            Tab('	')
+            Field('7')
+              SingleStyledText('7')
+---------------------------------- page 8 ----------------------------------
+#### FlowablesContainer('background')
+  StaticGroupedFlowables()
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <document>
+      (continued) StaticGroupedFlowables()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <compound>
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('YOLO_OBJECTDETECTION, Release 1....')
+         > (0,0,0,0,2) header [Sphinx] > header_footer
+        MixedStyledText('YOLO_OBJECTDETECTION, Release 1....')
+          MixedStyledText('YOLO_OBJECTDETECTION, Release 1....')
+            Field('YOLO_OBJECTDETECTION')
+              SingleStyledText('YOLO_OBJECTDETECTION')
+            SingleStyledText(', ')
+            Field('Release 1.0')
+              SingleStyledText('Release 1.0')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('8		Chapter 4.  Results and Discu...')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('8		Chapter 4.  Results and Discu...')
+          MixedStyledText('8		Chapter 4.  Results and Discu...')
+            Field('8')
+              SingleStyledText('8')
+            Tab('	')
+            Tab('	')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+            Field('4')
+              SingleStyledText('4')
+            SingleStyledText('.  ')
+            Field('Results and Discussion')
+              MixedStyledText('Results and Discussion')
+                MixedStyledText('Results and Discussion')
+                  SingleStyledText('Results and Discussion')
+---------------------------------- page 9 ----------------------------------
+#### FlowablesContainer('background')
+  StaticGroupedFlowables()
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Chapter 5', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      MixedStyledText('Chapter 5')
+        MixedStyledText('Chapter 5')
+          MixedStyledText('Chapter ')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+          Field('5', style='number')
+               > (0,0,2,0,3) body matter chapter number [Sphinx] > DEFAULT
+            SingleStyledText('5')
+  Paragraph('Conclusion', style='body matter chapter title')
+       > (0,0,1,0,2) body matter chapter title [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      Field('Conclusion')
+        MixedStyledText('Conclusion')
+          MixedStyledText('Conclusion')
+            SingleStyledText('Conclusion')
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <document>
+      (continued) StaticGroupedFlowables()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <compound>
+        StaticGroupedFlowables(id='%conclusion')   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <start_of_file>
+          Section(id='%conclusion#conclusion')   C:2 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\conclusion.rst)   <section>
+               > (0,0,0,1,4) content chapter [Sphinx] > chapter
+                 (0,0,0,1,2) chapter [Sphinx] > DEFAULT
+            Paragraph('Wrap up:')   C:4 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\conclusion.rst)   <paragraph>
+                 > (0,0,0,0,2) body [Sphinx] > default
+                MixedStyledText('Wrap up:')
+                  MixedStyledText('Wrap up:')
+                    SingleStyledText('Wrap up:')
+            List(style='bulleted')   C:6 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\conclusion.rst)   <bullet_list>
+                 > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+              ListItem()   C:6 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\conclusion.rst)   <list_item>
+                   x (0,0,1,0,4) bulleted list item
+                ListItemLabel('•')
+                     > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                       (0,0,0,0,2) list item label [Sphinx] > default
+                    MixedStyledText('•')
+                      SingleStyledText('')
+                      SingleStyledText('•')
+                      SingleStyledText('')
+                StaticGroupedFlowables()
+                     > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                  Paragraph('What worked')   C:6 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\conclusion.rst)   <paragraph>
+                       > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                         (0,0,0,0,2) body [Sphinx] > default
+                      MixedStyledText('What worked')
+                        MixedStyledText('What worked')
+                          SingleStyledText('What worked')
+              ListItem()   C:7 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\conclusion.rst)   <list_item>
+                   x (0,0,1,0,4) bulleted list item
+                ListItemLabel('•')
+                     > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                       (0,0,0,0,2) list item label [Sphinx] > default
+                    MixedStyledText('•')
+                      SingleStyledText('')
+                      SingleStyledText('•')
+                      SingleStyledText('')
+                StaticGroupedFlowables()
+                     > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                  Paragraph('What we learned')   C:7 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\conclusion.rst)   <paragraph>
+                       > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                         (0,0,0,0,2) body [Sphinx] > default
+                      MixedStyledText('What we learned')
+                        MixedStyledText('What we learned')
+                          SingleStyledText('What we learned')
+              ListItem()   C:8 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\conclusion.rst)   <list_item>
+                   x (0,0,1,0,4) bulleted list item
+                ListItemLabel('•')
+                     > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                       (0,0,0,0,2) list item label [Sphinx] > default
+                    MixedStyledText('•')
+                      SingleStyledText('')
+                      SingleStyledText('•')
+                      SingleStyledText('')
+                StaticGroupedFlowables()
+                     > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+                  Paragraph('Potential next steps')   C:8 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\conclusion.rst)   <paragraph>
+                       > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                         (0,0,0,0,2) body [Sphinx] > default
+                      MixedStyledText('Potential next steps')
+                        MixedStyledText('Potential next steps')
+                          SingleStyledText('Potential next steps')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		9')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('		9')
+          MixedStyledText('		9')
+            Tab('	')
+            Tab('	')
+            Field('9')
+              SingleStyledText('9')
+---------------------------------- page 10 ----------------------------------
+#### FlowablesContainer('background')
+  StaticGroupedFlowables()
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <document>
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('YOLO_OBJECTDETECTION, Release 1....')
+         > (0,0,0,0,2) header [Sphinx] > header_footer
+        MixedStyledText('YOLO_OBJECTDETECTION, Release 1....')
+          MixedStyledText('YOLO_OBJECTDETECTION, Release 1....')
+            Field('YOLO_OBJECTDETECTION')
+              SingleStyledText('YOLO_OBJECTDETECTION')
+            SingleStyledText(', ')
+            Field('Release 1.0')
+              SingleStyledText('Release 1.0')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('10		Chapter 5.  Conclusion')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('10		Chapter 5.  Conclusion')
+          MixedStyledText('10		Chapter 5.  Conclusion')
+            Field('10')
+              SingleStyledText('10')
+            Tab('	')
+            Tab('	')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+            Field('5')
+              SingleStyledText('5')
+            SingleStyledText('.  ')
+            Field('Conclusion')
+              MixedStyledText('Conclusion')
+                MixedStyledText('Conclusion')
+                  SingleStyledText('Conclusion')
+---------------------------------- page 11 ----------------------------------
+#### FlowablesContainer('background')
+  StaticGroupedFlowables()
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Chapter 6', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      MixedStyledText('Chapter 6')
+        MixedStyledText('Chapter 6')
+          MixedStyledText('Chapter ')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+          Field('6', style='number')
+               > (0,0,2,0,3) body matter chapter number [Sphinx] > DEFAULT
+            SingleStyledText('6')
+  Paragraph('Introduction', style='body matter chapter title')
+       > (0,0,1,0,2) body matter chapter title [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      Field('Introduction')
+        MixedStyledText('Introduction')
+          MixedStyledText('Introduction')
+            SingleStyledText('Introduction')
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <document>
+      Section(id='%conclusion#introduction')   C:16 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <section>
+           > (0,0,0,1,4) content chapter [Sphinx] > chapter
+             (0,0,0,1,2) chapter [Sphinx] > DEFAULT
+        Paragraph('This project develops a YOLO-bas...')   C:18 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <paragraph>
+             > (0,0,0,0,2) body [Sphinx] > default
+            MixedStyledText('This project develops a YOLO-bas...')
+              MixedStyledText('This project develops a YOLO-bas...')
+                SingleStyledText('This project develops a YOLO-bas...')
+        List(style='bulleted')   C:20 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <bullet_list>
+             > (0,0,1,0,2) bulleted list [Sphinx] > enumerated list
+          ListItem()   C:20 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <list_item>
+               x (0,0,1,0,4) bulleted list item
+            ListItemLabel('•')
+                 > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                   (0,0,0,0,2) list item label [Sphinx] > default
+                MixedStyledText('•')
+                  SingleStyledText('')
+                  SingleStyledText('•')
+                  SingleStyledText('')
+            StaticGroupedFlowables()
+                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+              Paragraph('Dataset Preparation (build_datas...')   C:20 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <paragraph>
+                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                     (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('Dataset Preparation (build_datas...')
+                    MixedStyledText('Dataset Preparation (build_datas...')
+                      MixedStyledText('Dataset Preparation', style='strong')   <strong>
+                           > (0,0,1,0,1) strong [Sphinx] > DEFAULT
+                        SingleStyledText('Dataset Preparation')
+                      SingleStyledText(' (')
+                      MixedStyledText('build_dataset.py', style='title reference')   <title_reference>
+                           > (0,0,1,0,1) title reference [Sphinx] > DEFAULT
+                        SingleStyledText('build_dataset.py')
+                      SingleStyledText(')')
+          ListItem()   C:21 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <list_item>
+               x (0,0,1,0,4) bulleted list item
+            ListItemLabel('•')
+                 > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                   (0,0,0,0,2) list item label [Sphinx] > default
+                MixedStyledText('•')
+                  SingleStyledText('')
+                  SingleStyledText('•')
+                  SingleStyledText('')
+            StaticGroupedFlowables()
+                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+              Paragraph('Model Training (yolov8_train.py)')   C:21 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <paragraph>
+                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                     (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('Model Training (yolov8_train.py)')
+                    MixedStyledText('Model Training (yolov8_train.py)')
+                      MixedStyledText('Model Training', style='strong')   <strong>
+                           > (0,0,1,0,1) strong [Sphinx] > DEFAULT
+                        SingleStyledText('Model Training')
+                      SingleStyledText(' (')
+                      MixedStyledText('yolov8_train.py', style='title reference')   <title_reference>
+                           > (0,0,1,0,1) title reference [Sphinx] > DEFAULT
+                        SingleStyledText('yolov8_train.py')
+                      SingleStyledText(')')
+          ListItem()   C:22 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <list_item>
+               x (0,0,1,0,4) bulleted list item
+            ListItemLabel('•')
+                 > (0,0,1,0,6) bulleted list item label [Sphinx] > list item label
+                   (0,0,0,0,2) list item label [Sphinx] > default
+                MixedStyledText('•')
+                  SingleStyledText('')
+                  SingleStyledText('•')
+                  SingleStyledText('')
+            StaticGroupedFlowables()
+                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+              Paragraph('Video Annotation GUI (GUI.py)')   C:22 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <paragraph>
+                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                     (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('Video Annotation GUI (GUI.py)')
+                    MixedStyledText('Video Annotation GUI (GUI.py)')
+                      MixedStyledText('Video Annotation GUI', style='strong')   <strong>
+                           > (0,0,1,0,1) strong [Sphinx] > DEFAULT
+                        SingleStyledText('Video Annotation GUI')
+                      SingleStyledText(' (')
+                      MixedStyledText('GUI.py', style='title reference')   <title_reference>
+                           > (0,0,1,0,1) title reference [Sphinx] > DEFAULT
+                        SingleStyledText('GUI.py')
+                      SingleStyledText(')')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		11')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('		11')
+          MixedStyledText('		11')
+            Tab('	')
+            Tab('	')
+            Field('11')
+              SingleStyledText('11')
+---------------------------------- page 12 ----------------------------------
+#### FlowablesContainer('background')
+  StaticGroupedFlowables()
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <document>
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('YOLO_OBJECTDETECTION, Release 1....')
+         > (0,0,0,0,2) header [Sphinx] > header_footer
+        MixedStyledText('YOLO_OBJECTDETECTION, Release 1....')
+          MixedStyledText('YOLO_OBJECTDETECTION, Release 1....')
+            Field('YOLO_OBJECTDETECTION')
+              SingleStyledText('YOLO_OBJECTDETECTION')
+            SingleStyledText(', ')
+            Field('Release 1.0')
+              SingleStyledText('Release 1.0')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('12		Chapter 6.  Introduction')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('12		Chapter 6.  Introduction')
+          MixedStyledText('12		Chapter 6.  Introduction')
+            Field('12')
+              SingleStyledText('12')
+            Tab('	')
+            Tab('	')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+            Field('6')
+              SingleStyledText('6')
+            SingleStyledText('.  ')
+            Field('Introduction')
+              MixedStyledText('Introduction')
+                MixedStyledText('Introduction')
+                  SingleStyledText('Introduction')
+---------------------------------- page 13 ----------------------------------
+#### FlowablesContainer('background')
+  StaticGroupedFlowables()
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Chapter 7', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      MixedStyledText('Chapter 7')
+        MixedStyledText('Chapter 7')
+          MixedStyledText('Chapter ')
+            StringField('Chapter')
+              SingleStyledText('Chapter')
+            SingleStyledText(' ')
+          Field('7', style='number')
+               > (0,0,2,0,3) body matter chapter number [Sphinx] > DEFAULT
+            SingleStyledText('7')
+  Paragraph('System Overview', style='body matter chapter title')
+       > (0,0,1,0,2) body matter chapter title [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      Field('System Overview')
+        MixedStyledText('System Overview')
+          MixedStyledText('System Overview')
+            SingleStyledText('System Overview')
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()   C (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <document>
+      Section(id='%conclusion#system-overview')   C:25 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <section>
+           > (0,0,0,1,4) content chapter [Sphinx] > chapter
+             (0,0,0,1,2) chapter [Sphinx] > DEFAULT
+        Paragraph('The pipeline consists of:')   C:27 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <paragraph>
+             > (0,0,0,0,2) body [Sphinx] > default
+            MixedStyledText('The pipeline consists of:')
+              MixedStyledText('The pipeline consists of:')
+                SingleStyledText('The pipeline consists of:')
+        List(style='enumerated')   C:29 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <enumerated_list>
+             > (0,0,1,0,2) enumerated list [Sphinx] > DEFAULT
+          ListItem()   C:29 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <list_item>
+               x (0,0,1,0,4) enumerated list item
+            ListItemLabel('1.')
+                 > (0,0,1,0,6) enumerated list item label [Sphinx] > list item label
+                   (0,0,0,0,2) list item label [Sphinx] > default
+                MixedStyledText('1.')
+                  SingleStyledText('')
+                  SingleStyledText('1')
+                  SingleStyledText('.')
+            StaticGroupedFlowables()
+                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+              Paragraph('Downloading, filtering & augment...')   C:29 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <paragraph>
+                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                     (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('Downloading, filtering & augment...')
+                    MixedStyledText('Downloading, filtering & augment...')
+                      SingleStyledText('Downloading, filtering & augment...')
+          ListItem()   C:30 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <list_item>
+               x (0,0,1,0,4) enumerated list item
+            ListItemLabel('2.')
+                 > (0,0,1,0,6) enumerated list item label [Sphinx] > list item label
+                   (0,0,0,0,2) list item label [Sphinx] > default
+                MixedStyledText('2.')
+                  SingleStyledText('')
+                  SingleStyledText('2')
+                  SingleStyledText('.')
+            StaticGroupedFlowables()
+                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+              Paragraph('Training a YOLOv8 detector')   C:30 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <paragraph>
+                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                     (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('Training a YOLOv8 detector')
+                    MixedStyledText('Training a YOLOv8 detector')
+                      SingleStyledText('Training a YOLOv8 detector')
+          ListItem()   C:31 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <list_item>
+               x (0,0,1,0,4) enumerated list item
+            ListItemLabel('3.')
+                 > (0,0,1,0,6) enumerated list item label [Sphinx] > list item label
+                   (0,0,0,0,2) list item label [Sphinx] > default
+                MixedStyledText('3.')
+                  SingleStyledText('')
+                  SingleStyledText('3')
+                  SingleStyledText('.')
+            StaticGroupedFlowables()
+                 > (0,0,0,0,3) list item body [Sphinx] > DEFAULT
+              Paragraph('Running a Tkinter GUI to annotat...')   C:31 (\Users\nvrag\OneDrive\Documents\GitHub\YOLO_ObjectDetection\docs\index.rst)   <paragraph>
+                   > (0,0,0,0,5) list item paragraph [Sphinx] > default
+                     (0,0,0,0,2) body [Sphinx] > default
+                  MixedStyledText('Running a Tkinter GUI to annotat...')
+                    MixedStyledText('Running a Tkinter GUI to annotat...')
+                      SingleStyledText('Running a Tkinter GUI to annotat...')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		13')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('		13')
+          MixedStyledText('		13')
+            Tab('	')
+            Tab('	')
+            Field('13')
+              SingleStyledText('13')
+---------------------------------- page 15 ----------------------------------
+#### FlowablesContainer('background')
+  StaticGroupedFlowables()
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Python Module Index', style='front matter section title')
+       > (0,0,1,0,2) front matter section title [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      Field('Python Module Index')
+        SingleStyledText('Python Module Index')
+#### ChainedContainer('column1')
+  StaticGroupedFlowables()
+    StaticGroupedFlowables()
+      IndexSection()
+           > (0,0,0,1,1) chapter [Sphinx] > DEFAULT
+        IndexLabel('b')
+             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('b')
+        IndexEntry('build_dataset, 1')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('build_dataset, 1')
+              MixedStyledText('build_dataset, 1')
+                SingleStyledText('build_dataset', style='domain')
+                     > (0,0,1,0,3) domain index entry name [Sphinx] > DEFAULT
+                SingleStyledText(', ')
+                Reference('1')
+                     > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                  SingleStyledText('1')
+        IndexLabel('g')
+             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('g')
+        IndexEntry('GUI, 5')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('GUI, 5')
+              MixedStyledText('GUI, 5')
+                SingleStyledText('GUI', style='domain')
+                     > (0,0,1,0,3) domain index entry name [Sphinx] > DEFAULT
+                SingleStyledText(', ')
+                Reference('5')
+                     > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                  SingleStyledText('5')
+        IndexLabel('y')
+             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('y')
+        IndexEntry('yolov8_train, 3')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('yolov8_train, 3')
+              MixedStyledText('yolov8_train, 3')
+                SingleStyledText('yolov8_train', style='domain')
+                     > (0,0,1,0,3) domain index entry name [Sphinx] > DEFAULT
+                SingleStyledText(', ')
+                Reference('3')
+                     > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                  SingleStyledText('3')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		15')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('		15')
+          MixedStyledText('		15')
+            Tab('	')
+            Tab('	')
+            Field('15')
+              SingleStyledText('15')
+---------------------------------- page 16 ----------------------------------
+#### FlowablesContainer('background')
+  StaticGroupedFlowables()
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('YOLO_OBJECTDETECTION, Release 1....')
+         > (0,0,0,0,2) header [Sphinx] > header_footer
+        MixedStyledText('YOLO_OBJECTDETECTION, Release 1....')
+          MixedStyledText('YOLO_OBJECTDETECTION, Release 1....')
+            Field('YOLO_OBJECTDETECTION')
+              SingleStyledText('YOLO_OBJECTDETECTION')
+            SingleStyledText(', ')
+            Field('Release 1.0')
+              SingleStyledText('Release 1.0')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('16		Python Module Index')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('16		Python Module Index')
+          MixedStyledText('16		Python Module Index')
+            Field('16')
+              SingleStyledText('16')
+            Tab('	')
+            Tab('	')
+            Field('Python Module Index')
+              SingleStyledText('Python Module Index')
+---------------------------------- page 17 ----------------------------------
+#### FlowablesContainer('background')
+  StaticGroupedFlowables()
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Index', style='front matter section title')
+       > (0,0,1,0,2) front matter section title [Sphinx] > DEFAULT
+         (0,0,0,0,2) body [Sphinx] > default
+      Field('Index')
+        StringField('Index')
+          SingleStyledText('Index')
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    IndexSection()
+         > (0,0,0,1,1) chapter [Sphinx] > DEFAULT
+      Index()   index
+           > (0,0,0,0,2) index [Sphinx] > DEFAULT
+        IndexLabel('A')
+             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('A')
+        IndexEntry('augment_images() (in module buil...')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('augment_images() (in module buil...')
+              MixedStyledText('augment_images() (in module buil...')
+                SingleStyledText('augment_images() (in module buil...')
+                MixedStyledText('1')
+                  Reference('1')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('1')
+        IndexLabel('B')
+             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('B')
+        IndexEntry('build_dataset')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('build_dataset')
+        IndexEntry('module, 1')
+             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('module, 1')
+              MixedStyledText('module, 1')
+                SingleStyledText('module, ')
+                MixedStyledText('1')
+                  Reference('1')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('1')
+        IndexLabel('G')
+             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('G')
+        IndexEntry('get_filtered_dataset() (in modul...')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('get_filtered_dataset() (in modul...')
+              MixedStyledText('get_filtered_dataset() (in modul...')
+                SingleStyledText('get_filtered_dataset() (in modul...')
+                MixedStyledText('1')
+                  Reference('1')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('1')
+        IndexEntry('GUI')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('GUI')
+        IndexEntry('module, 5')
+             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('module, 5')
+              MixedStyledText('module, 5')
+                SingleStyledText('module, ')
+                MixedStyledText('5')
+                  Reference('5')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('5')
+        IndexLabel('M')
+             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('M')
+        IndexEntry('module')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('module')
+        IndexEntry('build_dataset, 1')
+             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('build_dataset, 1')
+              MixedStyledText('build_dataset, 1')
+                SingleStyledText('build_dataset, ')
+                MixedStyledText('1')
+                  Reference('1')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('1')
+        IndexEntry('GUI, 5')
+             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('GUI, 5')
+              MixedStyledText('GUI, 5')
+                SingleStyledText('GUI, ')
+                MixedStyledText('5')
+                  Reference('5')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('5')
+        IndexEntry('yolov8_train, 3')
+             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('yolov8_train, 3')
+              MixedStyledText('yolov8_train, 3')
+                SingleStyledText('yolov8_train, ')
+                MixedStyledText('3')
+                  Reference('3')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('3')
+        IndexLabel('O')
+             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('O')
+        IndexEntry('open_file() (in module GUI), 5')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('open_file() (in module GUI), 5')
+              MixedStyledText('open_file() (in module GUI), 5')
+                SingleStyledText('open_file() (in module GUI), ')
+                MixedStyledText('5')
+                  Reference('5')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('5')
+        IndexLabel('P')
+             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('P')
+        IndexEntry('process_video() (in module GUI),...')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('process_video() (in module GUI),...')
+              MixedStyledText('process_video() (in module GUI),...')
+                SingleStyledText('process_video() (in module GUI),...')
+                MixedStyledText('5')
+                  Reference('5')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('5')
+        IndexLabel('Y')
+             > (0,0,0,0,2) index section label [Sphinx] > DEFAULT
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('Y')
+        IndexEntry('yolov8_train')
+             > (0,0,0,1,2) level 1 index entry [Sphinx] > default
+               (0,0,0,0,1) body [Sphinx] > default
+            SingleStyledText('yolov8_train')
+        IndexEntry('module, 3')
+             > (0,0,0,1,2) level 2 index entry [Sphinx] > level 1 index entry
+               (0,0,0,0,1) body [Sphinx] > default
+            MixedStyledText('module, 3')
+              MixedStyledText('module, 3')
+                SingleStyledText('module, ')
+                MixedStyledText('3')
+                  Reference('3')
+                       > (0,0,0,0,1) linked reference [Sphinx] > DEFAULT
+                    SingleStyledText('3')
+#### ChainedContainer('column2')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		17')
+         > (0,0,0,0,2) footer [Sphinx] > header_footer
+        MixedStyledText('		17')
+          MixedStyledText('		17')
+            Tab('	')
+            Tab('	')
+            Field('17')
+              SingleStyledText('17')

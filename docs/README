@@ -1,0 +1,4 @@
+cd docs
+if (Test-Path "_build") { Remove-Item -Recurse -Force "_build" }
+sphinx-build -b rinoh . _build/rinoh
+Copy-Item _build/rinoh/YOLO_ObjectDetection.pdf ..\YOLO_ObjectDetection.pdf

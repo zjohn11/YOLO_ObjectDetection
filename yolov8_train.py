@@ -1,5 +1,16 @@
+"""
+Model Training Script for YOLO Object Detection Project.
+
+This script trains a YOLOv8 model on the prepared dataset and evaluates its performance
+on the validation set.
+"""
+
+# ------------------------------- Imports -------------------------------
+
 from ultralytics import YOLO
 import torch
+
+# ------------------------------- Main -------------------------------
 
 if __name__ == "__main__":
 
@@ -12,9 +23,9 @@ if __name__ == "__main__":
 
     model.train(
         data='./yolo_dataset/dataset.yaml',
-        epochs = 50,
-        batch = 16,
-        imgsz = 416,
+        epochs=50,
+        batch=16,
+        imgsz=416,
         cache=False,
         workers=0,
         device=device
