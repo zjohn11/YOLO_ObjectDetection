@@ -53,7 +53,11 @@ def run_tests():
             print(f"\nRunning inference on {filename}...")
 
             results = model.predict(image_path, verbose=False)
-            df = results[0].pandas().xywh[["class", "name", "xcenter", "ycenter", "width", "height", "confidence"]]
+            df = results[0].to_df()
+            if not df.empty:
+                print(df[["class", "name", "xcenter", "ycenter", "width", "height", "confidence"]])
+            else:
+                print("No objects detected.")
 
             print(df if not df.empty else "No objects detected.")
 
