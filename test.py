@@ -3,11 +3,11 @@ import zipfile
 import yaml
 from ultralytics import YOLO
 
-# Paths
+# File paths
 zip_path = 'yolo_dataset.zip'
 extract_to = 'yolo_dataset'
 yaml_path = os.path.join(extract_to, 'dataset.yml')
-model_path = 'best.pt'
+model_path = 'best.pt'  # Assumed to be downloaded before this script runs
 
 def unzip_dataset(zip_path, extract_to):
     if not os.path.exists(extract_to):
@@ -25,7 +25,6 @@ def load_dataset_info(yaml_path):
     return None
 
 def find_image_dir(root_dir):
-    # Recursively look for images
     for root, dirs, files in os.walk(root_dir):
         if any(f.lower().endswith(('.jpg', '.png', '.jpeg')) for f in files):
             return root
@@ -40,11 +39,10 @@ def run_tests():
 
     model = YOLO(model_path)
 
-    # Try to find the image directory dynamically
     image_dir = find_image_dir(extract_to)
     if not image_dir:
         raise FileNotFoundError("Could not find directory with images inside the unzipped dataset.")
-
+    
     print(f"Using image directory: {image_dir}")
 
     for filename in os.listdir(image_dir):
@@ -54,12 +52,17 @@ def run_tests():
 
             results = model.predict(image_path, verbose=False)
             df = results[0].to_df()
+
             if not df.empty:
-                print(df[["class", "name", "xcenter", "ycenter", "width", "height", "confidence"]])
+                # Convert to XYWH format manually
+                df["xcenter"] = (df["xmin"] + df["xmax"]) / 2
+                df["ycenter"] = (df["ymin"] + df["ymax"]) / 2
+                df["width"] = df["xmax"] - df["xmin"]
+                df["height"] = df["ymax"] - df["ymin"]
+
+                print(df[["class", "name", "confidence", "xcenter", "ycenter", "width", "height"]])
             else:
                 print("No objects detected.")
-
-            print(df if not df.empty else "No objects detected.")
 
 if __name__ == "__main__":
     run_tests()
