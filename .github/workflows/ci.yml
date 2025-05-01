@@ -1,12 +1,12 @@
-name: CI Pipeline for YOLOv8 Training
+name: CI Workflow
 
 on:
   push:
     branches:
-      - main
+      - main  # Trigger on push to the main branch
   pull_request:
     branches:
-      - main
+      - main  # Trigger on pull request to the main branch
 
 jobs:
   train:
