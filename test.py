@@ -3,11 +3,10 @@ import zipfile
 import yaml
 from ultralytics import YOLO
 
-# File paths
 zip_path = 'yolo_dataset.zip'
 extract_to = 'yolo_dataset'
 yaml_path = os.path.join(extract_to, 'dataset.yml')
-model_path = 'best.pt'  # Assumed to be downloaded before this script runs
+model_path = 'best.pt'  #on release
 
 def unzip_dataset(zip_path, extract_to):
     if not os.path.exists(extract_to):
@@ -54,7 +53,6 @@ def run_tests():
             df = results[0].to_df()
 
             if not df.empty:
-                # Convert to XYWH format manually
                 df["xcenter"] = (df["xmin"] + df["xmax"]) / 2
                 df["ycenter"] = (df["ymin"] + df["ymax"]) / 2
                 df["width"] = df["xmax"] - df["xmin"]
