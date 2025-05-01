@@ -1,1 +1,37 @@
-this
+name: CI Pipeline for YOLOv8 Training
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  train:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Download model from GitHub Releases
+        run: |
+          curl -L -o best.pt https://github.com/zjohn11/YOLO_ObjectDetection/releases/download/v1.0.0/best.pt
+
+      - name: Unzip dataset
+        run: unzip yolo_dataset.zip -d yolo_dataset
+
+      - name: Run training script
+        run: python train.py
