@@ -1,14 +1,25 @@
 import os
-from PIL import Image
-import numpy as np
+import zipfile
 import yaml
-from model import YourAIModel  # Replace with your actual model import
+from PIL import Image
+from ultralytics import YOLO
+import shutil
 
-# Paths to images and labels
-image_dir = 'dataset/data/'
-label_dir = 'dataset/labels/'  # Assuming labels are in this folder
-yaml_path = 'dataset/dataset.yml'
+# Paths
+image_dir = 'data/'  # Folder containing images after unzipping yolo_dataset.zip
+label_dir = 'labels/'  # Folder containing labels (adjust if necessary)
+yaml_path = 'dataset.yml'  # Path to dataset YAML file (likely needed for label mapping)
 
+# Unzip the dataset if it's not already unzipped
+def unzip_dataset(zip_path, extract_to):
+    if not os.path.exists(extract_to):
+        print(f"Unzipping dataset: {zip_path}")
+        with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+            zip_ref.extractall(extract_to)
+    else:
+        print("Dataset already unzipped.")
+
+# Parse YOLO labels
 def parse_yolo_labels(label_file):
     """
     Parses a YOLO label file.
@@ -22,21 +33,23 @@ def parse_yolo_labels(label_file):
             labels.append(label)
         return labels
 
+# Load dataset information from dataset.yml
 def load_dataset_info(yaml_path):
-    """
-    Loads dataset information from dataset.yml.
-    """
     with open(yaml_path, 'r') as file:
         data = yaml.safe_load(file)
     return data
 
+# Run tests
 def run_tests():
+    # Unzip the dataset if it's in a zip file
+    unzip_dataset('yolo_dataset.zip', 'yolo_dataset')
+
     # Load dataset info from dataset.yml (if necessary for classes, paths, etc.)
     dataset_info = load_dataset_info(yaml_path)
     print(f"Dataset info: {dataset_info}")
 
-    # Initialize your AI model
-    model = YourAIModel()
+    # Initialize the YOLO model with the pre-trained 'best.pt' model from GitHub Releases
+    model = YOLO("best.pt")  # The model will be downloaded by the workflow before running this
 
     # Loop through images and their corresponding label files
     for image_filename in os.listdir(image_dir):
@@ -48,12 +61,8 @@ def run_tests():
             # Load the image
             image = Image.open(image_path)
 
-            # Optionally, preprocess the image before running it through the model
-            # Example: Resize image to match model input size
-            # image = image.resize((224, 224))
-
             # Run the image through your model to get predictions
-            model_output = model.predict(image)  # Replace with your actual model prediction
+            model_output = model.predict(image_path)  # YOLO model takes file path
 
             # Parse the YOLO labels for ground truth
             ground_truth = parse_yolo_labels(label_path)
@@ -61,7 +70,7 @@ def run_tests():
             # Output comparison (for now, we'll just print the results)
             print(f"Image: {image_filename}")
             print(f"Ground Truth: {ground_truth}")
-            print(f"Model Output: {model_output}")
+            print(f"Model Output: {model_output.pandas().xywh}")  # Predicted coordinates and labels
 
             # Optional: Compare model output with ground truth (IoU or other metrics)
             # assert compare_predictions(model_output, ground_truth), f"Test failed for {image_filename}"
