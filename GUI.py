@@ -4,7 +4,7 @@ from ultralytics import YOLO
 import cv2
 import os
 
-# Load your trained YOLO model
+# Load your trained YOLO model here
 model = YOLO("yolov8n.pt")  # update with model name/path
 
 
