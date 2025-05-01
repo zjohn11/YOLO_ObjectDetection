@@ -19,13 +19,15 @@ Now that things are downloaded, simply navigate to the parent directory and run 
 
 # Autodocumentation
 
-# Test plan
-To read the test plan document, open testPlan
+# Test Plan
+We did a variety of things to test the model. The most important test was run right after training. We had a second set of data that was kept seperate from the training data that we fed into the model and compared against the labels to determine accuracy in both location and classification. The first models weren't as good as we needed, so we trained the model for longer and added more photos to our data sets. Once we got the accuracy suitably high on the downloaded data sets, we set up and ran the model on our local devices and pulled more images from the internet to verify each category was still being properly recognized. Once we confirmed each goal was met, we moved on to videos and created our own test video to verify and display the accuracy and consistency of the model on a variety of clips with a range of people and things in them. 
 
 # Test scripts
 The github workflow pulles in requirements from requirements.txt and executes test.py to verify results. It's having formatting issues and doesn't execute smoothly as one unit right now. The test uses a smaller dataset generated from the full yolo training set of data. smallerdataser.py outputs this new dataset as yolo_dataset.zip. The workflow pulls in and unzips this and uses it to test best.pt that has been released on this repo. The workflow is activated when anything is pushed or pulled to the repo and sends an email with the result when complete. 
 We had attempted to use Jenkins but had several issues so pivoted last minute and had more success with Github workflows.
 
 # Graphs
+results.png shows the graphs for both training and validation that depict bounding box regression, classification, and the distribution of focal loss as the model developed. 
 
 # Results
+The results confirming that each category is recognized with at least 75% accuracy are graphed in PR_curve.png 
