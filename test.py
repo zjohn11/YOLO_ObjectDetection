@@ -33,11 +33,16 @@ def parse_yolo_labels(label_file):
             labels.append(label)
         return labels
 
-# Load dataset information from dataset.yml
+# Load dataset information from dataset.yml (only if needed)
 def load_dataset_info(yaml_path):
-    with open(yaml_path, 'r') as file:
-        data = yaml.safe_load(file)
-    return data
+    # Only load if the file exists
+    if os.path.exists(yaml_path):
+        with open(yaml_path, 'r') as file:
+            data = yaml.safe_load(file)
+        return data
+    else:
+        print(f"Warning: {yaml_path} not found. Skipping dataset info.")
+        return None
 
 # Run tests
 def run_tests():
@@ -46,7 +51,10 @@ def run_tests():
 
     # Load dataset info from dataset.yml (if necessary for classes, paths, etc.)
     dataset_info = load_dataset_info(yaml_path)
-    print(f"Dataset info: {dataset_info}")
+    if dataset_info:
+        print(f"Dataset info: {dataset_info}")
+    else:
+        print("No dataset info loaded.")
 
     # Initialize the YOLO model with the pre-trained 'best.pt' model from GitHub Releases
     model = YOLO("best.pt")  # The model will be downloaded by the workflow before running this
