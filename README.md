@@ -17,6 +17,8 @@ Once all dependencies are installed, you can clone the repo to your local machin
 
 Now that things are downloaded, simply navigate to the parent directory and run the GUI.py file. The GUI will open and prompt you to select a video to test with, and will output a video of the same name +_annotated when it is finished. 
 
+# Autodocumentation
+
 # Test plan
 To read the test plan document, open testPlan
 
