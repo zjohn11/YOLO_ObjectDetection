@@ -33,5 +33,5 @@ jobs:
       - name: Unzip dataset
         run: unzip yolo_dataset.zip -d yolo_dataset
 
-      - name: Run training script
-        run: python train.py
+      - name: Run testing script
+        run: python test.py
