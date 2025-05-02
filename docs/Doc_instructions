@@ -1,0 +1,2 @@
+Run in YOLO_ObjectDetection Directory:
+sphinx-apidoc -f -o docs\source .; python -m sphinx -b pdf docs\source .
