@@ -17,8 +17,6 @@ Once all dependencies are installed, you can clone the repo to your local machin
 
 Now that things are downloaded, simply navigate to the parent directory and run the GUI.py file. The GUI will open and prompt you to select a video to test with, and will output a video of the same name +_annotated when it is finished. 
 
-# Autodocumentation
-
 # Test Plan
 We did a variety of things to test the model. The most important test was run right after training. We had a second set of data that was kept seperate from the training data that we fed into the model and compared against the labels to determine accuracy in both location and classification. The first models weren't as good as we needed, so we trained the model for longer and added more photos to our data sets. Once we got the accuracy suitably high on the downloaded data sets, we set up and ran the model on our local devices and pulled more images from the internet to verify each category was still being properly recognized. Once we confirmed each goal was met, we moved on to videos and created our own test video to verify and display the accuracy and consistency of the model on a variety of clips with a range of people and things in them. 
 
