@@ -30,4 +30,4 @@ We had attempted to use Jenkins but had several issues so pivoted last minute an
 results.png shows the graphs for both training and validation that depict bounding box regression, classification, and the distribution of focal loss as the model developed. 
 
 # Results
-The results confirming that each category is recognized with at least 75% accuracy are graphed in PR_curve.png 
+The results confirming that each category is recognized with at least 75% accuracy are graphed in the normalized confusion matrix and precision-recall curve.
